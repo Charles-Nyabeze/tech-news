@@ -1,4 +1,3 @@
-const req = require('express/lib/request');
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 const bcrypt = require('bcrypt')
